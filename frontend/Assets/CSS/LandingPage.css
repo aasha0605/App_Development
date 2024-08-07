@@ -1,0 +1,34 @@
+/* src/Assets/CSS/LandingPage.css */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f4f4f4;
+  }
+  
+  .landing-page h1 {
+    margin-bottom: 2em;
+  }
+  
+  .landing-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .landing-link {
+    margin: 0.5em 0;
+    padding: 1em 2em;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .landing-link:hover {
+    background: #333;
+  }
+  

@@ -1,0 +1,11 @@
+/* src/Components/Admin/AdminLayout.css */
+.admin-layout {
+    display: flex;
+  }
+  
+  .admin-content {
+    margin-left: 200px; /* Add margin to account for the sidebar width */
+    padding: 20px;
+    width: calc(100% - 200px); /* Adjust width to account for the sidebar */
+  }
+  

@@ -1,0 +1,25 @@
+.wishlist {
+    padding: 20px;
+    max-height: 80vh; /* Adjust this value as needed */
+    overflow-y: auto;
+  }
+  
+  .wishlist-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .wishlist-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .wishlist-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  

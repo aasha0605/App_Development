@@ -1,0 +1,12 @@
+/* Footer.css */
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1px;
+  position: fixed; /* Change to fixed positioning */
+  bottom: 0;
+  width: 100%;
+  left: 0; /* Ensure it spans the entire width */
+  z-index: 100; /* Ensure it is above other elements if necessary */
+}

@@ -1,0 +1,52 @@
+/* src/Pages/HomePage.css */
+.homepage {
+  display: flex;
+  height: 100vh;
+  background: #f4f4f9;
+}
+
+.homepage-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #010001;
+}
+
+.homepage-image {
+  width: 90%;
+  height: 115%;
+  object-fit: cover;
+}
+
+.homepage-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16em;
+  box-sizing: border-box;
+  background: #f4f4f9;
+}
+
+.homepage-content {
+  text-align: center;
+}
+
+.homepage-content h1 {
+  font-style: italic;
+  color: #333;
+  font-size: 3.5em;
+}
+
+.homepage-content p {
+  color: #555;
+  font-size: 1.2em;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 1.5em;
+  color: #777;
+}
